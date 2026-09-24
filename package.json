@@ -1,0 +1,25 @@
+{
+  "name": "dronetv-ai-support-assistant",
+  "version": "1.0.0",
+  "description": "DroneTV AI Support & Lead Assistant Full-Stack Application",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:backend && npm run build:frontend"
+  },
+  "keywords": [
+    "dronetv",
+    "fullstack",
+    "react",
+    "express",
+    "mysql",
+    "chatbot",
+    "typescript"
+  ],
+  "author": "Rakesh Karikatti",
+  "license": "MIT"
+}
